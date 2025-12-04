@@ -54,4 +54,4 @@ with open("graph_output.png", "wb") as f:
     f.write(png_bytes)
 
 print("Graph saved as graph_output.png")
-
+print(graph.invoke({'amount_usd':1000}))
